@@ -6,7 +6,7 @@ l3=l1+l2
 l3.sort()
 n=len(l3)
 if(n%2==0):
-    r=(l3[n//2]+l3[n//2-1])/2
+    r=(l3[n//2]+l3[n//2-1])/2       
 else:
     r=l3[n//2]
 print(l3)
